@@ -3,7 +3,7 @@ Version: 1.0
 Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
-MD5sum: c8c6838f8e2c6cd2fd62671f29e02265
+MD5sum: 77a8f9b39eb8fddbc321b80331c326ac
 NeedsCompilation: yes
 
 Package: DeclareDesign
