@@ -1,6 +1,0 @@
-Package: DDestimate
-Version: 1.0
-Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat
-MD5sum: 4c8e8d358d994b1298c670c429fcd9d6
