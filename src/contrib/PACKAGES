@@ -1,3 +1,11 @@
+Package: DDestimate
+Version: 1.0
+Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+MD5sum: c8c6838f8e2c6cd2fd62671f29e02265
+NeedsCompilation: yes
+
 Package: DeclareDesign
 Version: 0.1
 Depends: R (>= 3.3.0)
@@ -12,3 +20,4 @@ Imports: lazyeval, dplyr
 Suggests: testthat
 MD5sum: 982c76e12eb8145cd3d39fba2b6e5826
 NeedsCompilation: no
+
