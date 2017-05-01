@@ -11,7 +11,7 @@ Version: 1.0
 Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
-MD5sum: dbc683533f0459e5207dd30e4a9b56a4
+MD5sum: bb4edeeff1e95489544d66909f45a011
 NeedsCompilation: yes
 
 Package: fabricatr
@@ -20,4 +20,3 @@ Imports: lazyeval, dplyr
 Suggests: testthat
 MD5sum: 376761056b09d2888eba3b999fe311c3
 NeedsCompilation: no
-
