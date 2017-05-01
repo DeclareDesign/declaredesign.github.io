@@ -1,9 +1,9 @@
 Package: DeclareDesign
 Version: 0.1
 Depends: R (>= 3.3.0)
-Imports: dplyr, foreach, lazyeval, randomizr, fabricatr, DDestimate
+Imports: dplyr, foreach, lazyeval, randomizr, fabricatr, estimatr
 Suggests: testthat, knitr, rmarkdown, AER, magrittr
-MD5sum: 79f76b6ade51bd545a463b52debe96d3
+MD5sum: 43fc78a45a501d7af5861b32f801bc1c
 
 Package: fabricatr
 Version: 0.1.0
