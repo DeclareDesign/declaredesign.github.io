@@ -3,5 +3,5 @@ Version: 1.0
 Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
-MD5sum: f0c3983ca8a3bc81c6e509f14b48166f
+MD5sum: 00a7c331dd7e0d869ac92ca15fbd849c
 
