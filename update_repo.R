@@ -5,6 +5,9 @@
 getPathForPackage <- function(file) {
   pkgtype <- identifyPackageType(file)
   fields <- getPackageInfo(file)
+  print("===")
+  print(fields)
+  print("===")
   rversion <- unname(fields["Rmajor"])
 
   if (pkgtype == "source") {
