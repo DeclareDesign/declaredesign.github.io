@@ -85,7 +85,7 @@ getPackageInfo <- function(file) {
 
 path <- ifelse(
   .Platform$OS.type == 'windows',
-  file.path('..', '${APPVEYOR_PROJECT_NAME:-$PKG_REPO}'),
+  file.path('..', Sys.getenv("APPVEYOR_PROJECT_NAME")),
   file.path('..')
 )
 
