@@ -13,7 +13,7 @@ getPathForPackage <- function(file) {
     ret <- file.path("bin", "windows", "contrib", rversion)
   } else if (pkgtype == "mac.binary") {
     if (fields["OSflavour"] == "") {
-      # non-binary package, treated as Mavericks
+      # non-binary package, treated as El-Capitan
       message("Note: Non-binary OS X package will be installed in El Capitan path.")
       fields["El-Capitan"] <- "yes"
     }
@@ -53,7 +53,7 @@ getPackageInfo <- function(file) {
     ##stop("Not sure we can handle ", file, call.=FALSE)
     fields <- c("Source" = TRUE,
                 "Rmajor" = NA,
-                "Mavericks" = FALSE)
+                "El-Capitan" = FALSE)
     return(fields)
   }
 
@@ -72,7 +72,7 @@ getPackageInfo <- function(file) {
   fields <-
     c(fields,
       "Rmajor" = unname(rmajor),
-      "Mavericks" = unname(isDarwin13))
+      "El-Capitan" = unname(isDarwin13))
 
   return(fields)
 }
