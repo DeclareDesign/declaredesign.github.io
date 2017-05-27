@@ -89,14 +89,10 @@ path <- ifelse(
   file.path('..')
 )
 
-print(paste("path", path))
-
 files <-
   file.path(
     path, dir(
       path, pattern = ifelse(.Platform$OS.type == 'windows', '.zip', '.t*z')))
-
-print(paste("files", files))
 
 repodir <- '.'
 
