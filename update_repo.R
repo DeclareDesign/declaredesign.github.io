@@ -15,16 +15,17 @@ getPathForPackage <- function(file) {
   } else if (pkgtype == "win.binary") {
     ret <- file.path("bin", "windows", "contrib", rversion)
   } else if (pkgtype == "mac.binary") {
-    if (fields["OSflavour"] == "") {
-      # non-binary package, treated as El-Capitan
-      message("Note: Non-binary OS X package will be installed in El Capitan path.")
-      fields["El-Capitan"] <- "yes"
-    }
-    if (unname(fields["El-Capitan"]) == "yes") {
+    # commenting out the special stuff for mac versions, which wasn't working
+    # if (fields["OSflavour"] == "") {
+    #   # non-binary package, treated as El-Capitan
+    #   message("Note: Non-binary OS X package will be installed in El Capitan path.")
+    #   fields["El-Capitan"] <- "yes"
+    # }
+    # if (unname(fields["El-Capitan"]) == "yes") {
       ret <- file.path("bin", "macosx", "el-capitan", "contrib", rversion)
-    } else {
-      ret <- file.path("bin", "macosx", "contrib", rversion)
-    }
+    # } else {
+      # ret <- file.path("bin", "macosx", "contrib", rversion)
+    # }
   }
   return(ret)
 }
