@@ -1,6 +1,0 @@
-Package: estimatr
-Version: 1.0
-Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat
-MD5sum: 9d76aaf310978f36076f2f6090b005f5
