@@ -49,9 +49,10 @@ path <- ifelse(
 files <-
   dir(path, pattern = ifelse(.Platform$OS.type == 'windows', '.zip', '.t*z'))
 
-print(paste('processing', pkg))
 
 for (f in files) {
+  print(paste('processing', f))
+
   pkgdir <- file.path(repodir, reldir)
 
   if (!file.exists(pkgdir)) {
