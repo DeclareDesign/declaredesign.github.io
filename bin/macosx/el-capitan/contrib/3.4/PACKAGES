@@ -1,3 +1,10 @@
+Package: DeclareDesign
+Version: 0.1
+Depends: R (>= 3.3.0)
+Imports: dplyr, foreach, lazyeval, randomizr, fabricatr, estimatr
+Suggests: testthat, knitr, rmarkdown, AER, magrittr
+MD5sum: 539a2e716c6658065084507218a09be0
+
 Package: estimatr
 Version: 1.0
 Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
