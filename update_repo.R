@@ -40,6 +40,43 @@ identifyPackageType <- function(file) {
   return(ret)
 }
 
+getPackageInfo <- function(file) {
+  if (!file.exists(file))
+    stop("File ", file, " not found!", call. = FALSE)
+
+  td <- tempdir()
+  if (grepl(".zip$", file)) {
+    unzip(file, exdir = td)
+  } else if (grepl(".tgz$", file)) {
+    untar(file, exdir = td)
+  } else {
+    ##stop("Not sure we can handle ", file, call.=FALSE)
+    fields <- c("Source" = TRUE,
+                "Rmajor" = NA,
+                "Mavericks" = FALSE)
+    return(fields)
+  }
+
+  pkgname <- gsub("^([a-zA-Z0-9.]*)_.*", "\\1", basename(file))
+  path <- file.path(td, pkgname, "DESCRIPTION")
+  builtstring <- read.dcf(path, 'Built')
+  unlink(file.path(td, pkgname), recursive = TRUE)
+
+  fields <- strsplit(builtstring, "; ")[[1]]
+  names(fields) <- c("Rversion", "OSflavour", "Date", "OS")
+
+  rmajor <-
+    gsub("^R (\\d\\.\\d)\\.\\d.*", "\\1", fields["Rversion"])
+  isDarwin13 <-
+    ifelse(fields["OSflavour"] == "x86_64-apple-darwin13.4.0", "yes", "no")
+  fields <-
+    c(fields,
+      "Rmajor" = unname(rmajor),
+      "Mavericks" = unname(isDarwin13))
+
+  return(fields)
+}
+
 path <- ifelse(
   .Platform$OS.type == 'windows',
   file.path('..', '${APPVEYOR_PROJECT_NAME:-$PKG_REPO}'),
