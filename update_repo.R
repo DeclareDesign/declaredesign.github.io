@@ -109,6 +109,6 @@ for (f in files) {
     stop("File ", f, " can not be copied to ", pkgdir, call. = FALSE)
   }
 
-  write_PACKAGES(pkgdir, type = identifyPackageType(f), ...)
+  tools::write_PACKAGES(pkgdir, type = identifyPackageType(f), ...)
 
 }
