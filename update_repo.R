@@ -14,7 +14,7 @@ getPathForPackage <- function(file) {
   } else if (pkgtype == "mac.binary") {
     if (fields["OSflavour"] == "") {
       # non-binary package, treated as Mavericks
-      message("Note: Non-binary OS X package will be installed in Mavericks path.")
+      message("Note: Non-binary OS X package will be installed in El Capitan path.")
       fields["El-Capitan"] <- "yes"
     }
     if (unname(fields["El-Capitan"]) == "yes") {
@@ -84,7 +84,9 @@ path <- ifelse(
 )
 
 files <-
-  dir(path, pattern = ifelse(.Platform$OS.type == 'windows', '.zip', '.t*z'))
+  file.path(
+    path, dir(
+      path, pattern = ifelse(.Platform$OS.type == 'windows', '.zip', '.t*z')))
 
 repodir <- '.'
 
