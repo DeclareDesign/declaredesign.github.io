@@ -10,7 +10,7 @@ getPathForPackage <- function(file) {
   print("===")
   print(fields)
   print("===")
-  rversion <- unname(fields["Rmajor"])
+  rversion <- "3.4" ##unname(fields["Rmajor"])
 
   if (pkgtype == "source") {
     ret <- file.path("src", "contrib")
