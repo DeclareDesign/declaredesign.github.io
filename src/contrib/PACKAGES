@@ -5,3 +5,10 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 MD5sum: b509ec1bff07f361dc0a4fd8c304749c
 NeedsCompilation: yes
+
+Package: fabricatr
+Version: 0.1.0
+Imports: lazyeval, dplyr
+Suggests: testthat
+MD5sum: 72ff75c6f1ef8f4b904a1177b76f614f
+NeedsCompilation: no
