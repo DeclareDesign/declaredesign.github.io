@@ -2,6 +2,8 @@
 # License: GPL (>= 2)
 # https://github.com/eddelbuettel/drat
 
+print("start update repo")
+
 getPathForPackage <- function(file) {
   pkgtype <- identifyPackageType(file)
   fields <- getPackageInfo(file)
