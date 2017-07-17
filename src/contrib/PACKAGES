@@ -3,7 +3,7 @@ Version: 0.1
 Depends: R (>= 3.3.0)
 Imports: dplyr, foreach, lazyeval, randomizr, fabricatr, estimatr
 Suggests: testthat, knitr, rmarkdown, AER, magrittr
-MD5sum: e7eb02ebea1bb0fb6795dd04070879df
+MD5sum: a3e56341eef6d07ba255818ce3704216
 NeedsCompilation: no
 
 Package: estimatr
