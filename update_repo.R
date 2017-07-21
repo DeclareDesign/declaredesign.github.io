@@ -10,7 +10,11 @@ getPathForPackage <- function(file) {
   print("===")
   print(fields)
   print("===")
-  rversion <- "3.4" ##unname(fields["Rmajor"])
+  rversion <- unname(fields["Rmajor"])
+  # Forcibly only submit R 3.3 or 3.4 packages.
+  if(!rversion %in% c("3.3", "3.4")) { 
+    return(NA) 
+  }
 
   if (pkgtype == "source") {
     ret <- file.path("src", "contrib")
@@ -100,6 +104,9 @@ for (f in files) {
   print(paste('processing', f))
 
   reldir <- getPathForPackage(f)
+  if(is.na(reldir)) {
+    next
+  }
 
   pkgdir <- file.path(repodir, reldir)
 
