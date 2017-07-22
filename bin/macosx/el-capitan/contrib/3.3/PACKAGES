@@ -10,7 +10,7 @@ Version: 1.0
 Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
-MD5sum: f2ffb14207b5c24d8fdd8eed56f92d61
+MD5sum: d3be9ec01f88fd779595ba097b09cb29
 
 Package: fabricatr
 Version: 0.1.0
