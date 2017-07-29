@@ -16,4 +16,4 @@ Package: fabricatr
 Version: 0.1.0
 Imports: lazyeval, dplyr
 Suggests: testthat
-MD5sum: ecad3d1a6578179e3cb4ff17acb58132
+MD5sum: 2fbcf4987f087254a8bd37c8ac88e054
