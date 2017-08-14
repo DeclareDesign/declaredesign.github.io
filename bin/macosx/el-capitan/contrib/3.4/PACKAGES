@@ -9,8 +9,8 @@ Package: estimatr
 Version: 1.0
 Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat
-MD5sum: 8fadaefe4937bb5e2e1f98740364e020
+Suggests: testthat, sandwich
+MD5sum: ba0967ff5aae22a5ec0e608f5119cf2d
 
 Package: fabricatr
 Version: 0.1.0
