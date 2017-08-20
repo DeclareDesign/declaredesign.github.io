@@ -13,5 +13,5 @@ Archs: i386
 
 Package: fabricatr
 Version: 0.1.0
-Imports: lazyeval, dplyr
-Suggests: testthat
+Imports: rlang
+Suggests: testthat, dplyr
