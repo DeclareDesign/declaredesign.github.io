@@ -7,10 +7,10 @@ MD5sum: 5982f9067c6c505558e4b0234a416894
 
 Package: estimatr
 Version: 1.0
-Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
+Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, sandwich
-MD5sum: 15fcb7a5a242f4f48daa5e93aaa7f8a6
+MD5sum: 5298402c99ddf5f657ba233a92c490db
 
 Package: fabricatr
 Version: 0.1.0
