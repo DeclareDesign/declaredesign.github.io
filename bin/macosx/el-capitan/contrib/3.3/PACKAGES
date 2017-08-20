@@ -10,7 +10,7 @@ Version: 1.0
 Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, sandwich
-MD5sum: 5298402c99ddf5f657ba233a92c490db
+MD5sum: 2420fb6913112b9f5b68c983f161b819
 
 Package: fabricatr
 Version: 0.1.0
