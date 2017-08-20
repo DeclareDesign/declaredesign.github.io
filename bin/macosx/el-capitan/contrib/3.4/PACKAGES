@@ -14,6 +14,6 @@ MD5sum: e95f4d3423965518c932971c8ba2c896
 
 Package: fabricatr
 Version: 0.1.0
-Imports: lazyeval, dplyr
-Suggests: testthat
-MD5sum: 4185bce1d687d4a94ead785970bfc6e2
+Imports: rlang
+Suggests: testthat, dplyr
+MD5sum: f71c41234e0840d5e2e83b3167236cff
