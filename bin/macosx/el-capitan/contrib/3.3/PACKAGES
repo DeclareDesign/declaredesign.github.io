@@ -11,7 +11,7 @@ Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, sandwich
 License: MIT + file LICENSE
-MD5sum: 6cd83bec171b45cbddd453e391eeffe5
+MD5sum: 691d286b66d0161fa48a78241b9eb10f
 
 Package: fabricatr
 Version: 0.1.0
