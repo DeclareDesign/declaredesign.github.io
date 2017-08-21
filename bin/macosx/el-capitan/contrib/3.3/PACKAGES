@@ -17,5 +17,6 @@ Package: fabricatr
 Version: 0.1.0
 Imports: rlang
 Suggests: testthat, dplyr
-MD5sum: ec476aa7ed2e3b8cd733d074c727de72
+License: MIT + file LICENSE
+MD5sum: d8e777a232d171645c4f4cf40d7ba761
 
