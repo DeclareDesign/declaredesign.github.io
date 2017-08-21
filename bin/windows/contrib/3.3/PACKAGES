@@ -9,6 +9,7 @@ Version: 1.0
 Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, sandwich
+License: MIT + file LICENSE
 Archs: i386
 
 Package: fabricatr
