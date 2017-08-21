@@ -16,3 +16,4 @@ Package: fabricatr
 Version: 0.1.0
 Imports: rlang
 Suggests: testthat, dplyr
+License: MIT + file LICENSE
