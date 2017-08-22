@@ -1,5 +1,5 @@
 Package: DeclareDesign
-Version: 0.1
+Version: 1.0
 Depends: R (>= 3.3.0)
 Imports: rlang, foreach, randomizr, fabricatr, estimatr
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, sf
