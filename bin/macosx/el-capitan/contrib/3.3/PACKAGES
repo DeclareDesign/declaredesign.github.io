@@ -4,7 +4,7 @@ Depends: R (>= 3.3.0)
 Imports: rlang, foreach, randomizr, fabricatr, estimatr
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, sf
 License: MIT + file LICENSE
-MD5sum: 6aa7016478b65ab6968c1968e079e79c
+MD5sum: 2f06a23c1faa4ae9b41cdd429774eafa
 
 Package: estimatr
 Version: 1.0
