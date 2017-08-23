@@ -14,8 +14,8 @@ License: MIT + file LICENSE
 MD5sum: 8f9ad32fbdbe64c6aa468aebbe1c79c9
 
 Package: fabricatr
-Version: 0.1.0
+Version: 1.0.0
 Imports: rlang
 Suggests: testthat, dplyr
 License: MIT + file LICENSE
-MD5sum: 74c1b150828da8b9652149415fb08a48
+MD5sum: fb8e69c776e350126d83f37bb2c9137e
