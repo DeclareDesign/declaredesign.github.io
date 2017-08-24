@@ -1,5 +1,5 @@
 Package: DeclareDesign
-Version: 1.0
+Version: 1.0.0
 Depends: R (>= 3.3.0)
 Imports: rlang, randomizr, fabricatr, estimatr, doParallel, foreach,
         doRNG, parallel
