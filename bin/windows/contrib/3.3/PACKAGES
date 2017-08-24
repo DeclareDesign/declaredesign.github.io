@@ -16,6 +16,7 @@ Archs: i386
 
 Package: fabricatr
 Version: 1.0.0
+Depends: R (>= 3.2.0)
 Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown
 License: MIT + file LICENSE
