@@ -18,4 +18,4 @@ Version: 1.0.0
 Imports: rlang
 Suggests: testthat, dplyr
 License: MIT + file LICENSE
-MD5sum: 87d74df90b131f9980773483fda3d4e9
+MD5sum: 577132f9125c5698a369139c1e88a0ef
