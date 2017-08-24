@@ -18,7 +18,7 @@ MD5sum: 70d1fa681478c1ff7b1c119bf40272fa
 Package: fabricatr
 Version: 1.0.0
 Imports: rlang
-Suggests: testthat, dplyr
+Suggests: testthat, dplyr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 07389bf1510a3c850f8359a1b5394748
+MD5sum: 632303d85057ae2df5249f646b30b0e3
 
