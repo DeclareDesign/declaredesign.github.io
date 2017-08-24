@@ -20,5 +20,5 @@ Version: 1.0.0
 Imports: rlang
 Suggests: testthat, dplyr
 License: MIT + file LICENSE
-MD5sum: 574200a18988d181ea564cc7ed4caf6b
+MD5sum: 6a86966ee0def10efa4169f097f0e3ec
 
