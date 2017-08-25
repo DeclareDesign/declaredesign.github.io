@@ -1,9 +1,11 @@
 Package: DeclareDesign
-Version: 0.1
+Version: 1.0.0
 Depends: R (>= 3.3.0)
-Imports: dplyr, foreach, lazyeval, randomizr, fabricatr, estimatr
-Suggests: testthat, knitr, rmarkdown, AER, magrittr
-MD5sum: a91fb253419c61bbe979d3fb52da5918
+Imports: rlang, randomizr, fabricatr, estimatr, doParallel, foreach,
+        doRNG, parallel
+Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, sf
+License: MIT + file LICENSE
+MD5sum: 81af3446f1f216fd07457626ef26ced8
 
 Package: estimatr
 Version: 1.0
