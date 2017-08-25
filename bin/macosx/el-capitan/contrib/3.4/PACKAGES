@@ -5,7 +5,7 @@ Imports: rlang, randomizr, fabricatr, estimatr, doParallel, foreach,
         doRNG, parallel
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, sf
 License: MIT + file LICENSE
-MD5sum: b92f6f07e72756e897d6911dbbb06b0c
+MD5sum: 9c56895c0873cf124d233bf6205bf657
 
 Package: estimatr
 Version: 1.0
