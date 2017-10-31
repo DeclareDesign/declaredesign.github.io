@@ -19,7 +19,7 @@ Package: fabricatr
 Version: 1.0.0
 Depends: R (>= 3.2.0)
 Imports: rlang
-Suggests: testthat, dplyr, knitr, rmarkdown
+Suggests: testthat, dplyr, knitr, rmarkdown, data.table
 License: MIT + file LICENSE
-MD5sum: a3aaf6346262c792d367e998825abad6
+MD5sum: 2e75e0bec040b490b7cbd0f87f5b84f2
 
