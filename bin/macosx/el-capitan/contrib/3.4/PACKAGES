@@ -11,9 +11,9 @@ Package: estimatr
 Version: 1.0
 Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat, sandwich
+Suggests: testthat, sandwich, randomizr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 8f9ad32fbdbe64c6aa468aebbe1c79c9
+MD5sum: bd637bb03512f00bb7faafa8ddd690af
 
 Package: fabricatr
 Version: 1.0.0
