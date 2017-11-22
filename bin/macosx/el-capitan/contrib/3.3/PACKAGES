@@ -21,5 +21,5 @@ Depends: R (>= 3.2.0)
 Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table
 License: MIT + file LICENSE
-MD5sum: eeddc4ec0cef780031b1f8e801e5aa1a
+MD5sum: 35fcaeba57bbdfd922ab0ef3842bed10
 
