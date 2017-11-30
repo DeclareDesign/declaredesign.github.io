@@ -13,7 +13,7 @@ Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, sandwich, randomizr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 9a1d433b18dd9baa7025db39b01bbfeb
+MD5sum: ca453322c685cef4db5af8c8d34711ed
 
 Package: fabricatr
 Version: 1.0.0
