@@ -100,28 +100,35 @@ files <-
 
 repodir <- '.'
 
+print("Beginning update_repo.R script.")
 for (f in files) {
-  print(paste('processing', f))
+  print(paste('Processing', f))
 
   reldir <- getPathForPackage(f)
   if(is.na(reldir)) {
+    print("No relative directory, skipping to next file.")
     next
   }
+  print(paste("Relative directory:", reldir))
 
   pkgdir <- file.path(repodir, reldir)
 
   if (!file.exists(pkgdir)) {
+    print(paste("Package directory did not exist. Creating directory", pkgdir))
     ## TODO: this could be in a git branch, need checking
     if (!dir.create(pkgdir, recursive = TRUE)) {
       stop("Directory ", pkgdir, " couldn't be created\n", call. = FALSE)
     }
   }
 
+  print("Beginning file copy into repo.")
   ## copy file into repo
   if (!file.copy(f, pkgdir, overwrite = TRUE)) {
     stop("File ", f, " can not be copied to ", pkgdir, call. = FALSE)
   }
+  print("File copy into repo complete, using tools::write_PACKAGES")
 
   tools::write_PACKAGES(pkgdir, type = identifyPackageType(f))
 
+  print(paste("File", f, "complete"))
 }
