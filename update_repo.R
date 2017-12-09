@@ -88,6 +88,10 @@ getPackageInfo <- function(file) {
   unlink(file.path(td, pkgname), recursive = TRUE)
 
   fields <- strsplit(builtstring, "; ")[[1]]
+  print(paste0("Current build string: ", builtstring))
+  print("And now in split form...")
+  print(fields)
+  print(paste("Length of fields vecotr is now", length(fields)))
   names(fields) <- c("Rversion", "OSflavour", "Date", "OS")
 
   rmajor <-
