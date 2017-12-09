@@ -12,7 +12,7 @@ Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, sandwich, randomizr, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 97a607cf096ab304f908a9fe2eddd4ac
+MD5sum: 153eacc0eb7c9b5f3fbfffc77cefd724
 NeedsCompilation: yes
 
 Package: fabricatr
@@ -23,3 +23,4 @@ Suggests: testthat, dplyr, knitr, rmarkdown, data.table
 License: MIT + file LICENSE
 MD5sum: 43dc5aa47af9e2f9bfe630a64b172a65
 NeedsCompilation: no
+
