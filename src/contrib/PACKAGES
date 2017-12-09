@@ -15,8 +15,10 @@ MD5sum: cf60bf6b76bfec5c49b8abfd16e7e360
 NeedsCompilation: yes
 
 Package: fabricatr
-Version: 0.1.0
-Imports: lazyeval, dplyr
-Suggests: testthat
-MD5sum: 1f8c22573c7a8318efe39d50a720a3ea
+Version: 1.0.0
+Depends: R (>= 3.2.0)
+Imports: rlang
+Suggests: testthat, dplyr, knitr, rmarkdown, data.table
+License: MIT + file LICENSE
+MD5sum: 43dc5aa47af9e2f9bfe630a64b172a65
 NeedsCompilation: no
