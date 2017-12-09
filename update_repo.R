@@ -2,10 +2,14 @@
 # License: GPL (>= 2)
 # https://github.com/eddelbuettel/drat
 
-print("start update repo")
+print("Begin running update_repo.R to update repo.")
 
 getPathForPackage <- function(file) {
+  print(paste("Asked to get a path for", file))
   pkgtype <- identifyPackageType(file)
+  print(paste("Used identifyPackageType to get the package type: ", pkgtype))
+
+  print("Now, getting package fields...")
   fields <- getPackageInfo(file)
   print("===")
   print(fields)
@@ -13,14 +17,18 @@ getPathForPackage <- function(file) {
   rversion <- unname(fields["Rmajor"])
   # Forcibly only submit R 3.3 or 3.4 packages.
   if(!rversion %in% c("3.3", "3.4")) { 
+    print("R version did not match our range: 3.3 to 3.4... so we do not submit.")
     return(NA) 
   }
 
   if (pkgtype == "source") {
+    print("Package type was source, so we're setting up the folder src/contrib.")
     ret <- file.path("src", "contrib")
   } else if (pkgtype == "win.binary") {
+    print("Package type was win.binary, so we're setting up the folder bin/windows/contrib/<rversion>")
     ret <- file.path("bin", "windows", "contrib", rversion)
   } else if (pkgtype == "mac.binary") {
+    print("Package type was mac.binary so we're setting up the folder bin/macosx/el-capitan/contrib/<rversion>")
     # commenting out the special stuff for mac versions, which wasn't working
     # if (fields["OSflavour"] == "") {
     #   # non-binary package, treated as El-Capitan
@@ -37,6 +45,7 @@ getPathForPackage <- function(file) {
 }
 
 identifyPackageType <- function(file) {
+  print("Identifying package type.")
   ##from src/library/tools/R/packages.R
   ret <- if (grepl("_.*\\.tar\\..*$", file)) {
     "source"
@@ -47,19 +56,24 @@ identifyPackageType <- function(file) {
   } else {
     stop("Unknown package type", call. = FALSE)
   }
+  print(paste("Package type: ", ret))
   return(ret)
 }
 
 getPackageInfo <- function(file) {
+  print(paste("Running getPackageInfo on", file))
   if (!file.exists(file))
     stop("File ", file, " not found!", call. = FALSE)
 
   td <- tempdir()
   if (grepl(".zip$", file)) {
+    print("We found a zip file. We will unzip.")
     unzip(file, exdir = td)
   } else if (grepl(".tgz$", file)) {
+    print("We found a tgz file, we will untar.")
     untar(file, exdir = td)
   } else {
+    print("We found some other file... hmmm...")
     ##stop("Not sure we can handle ", file, call.=FALSE)
     fields <- c("Source" = TRUE,
                 "Rmajor" = NA,
@@ -67,6 +81,7 @@ getPackageInfo <- function(file) {
     return(fields)
   }
 
+  print("Using the unarchived version of the file, let's get some info...")
   pkgname <- gsub("^([a-zA-Z0-9.]*)_.*", "\\1", basename(file))
   path <- file.path(td, pkgname, "DESCRIPTION")
   builtstring <- read.dcf(path, 'Built')
@@ -100,7 +115,7 @@ files <-
 
 repodir <- '.'
 
-print("Beginning update_repo.R script.")
+print("Beginning update_repo.R file processing loop.")
 for (f in files) {
   print(paste('Processing', f))
 
