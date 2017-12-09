@@ -69,7 +69,7 @@ getPackageInfo <- function(file) {
   if (grepl(".zip$", file)) {
     print("We found a zip file. We will unzip.")
     unzip(file, exdir = td)
-  } else if (grepl(".tgz$", file)) {
+  } else if (grepl(".tgz$", file) || grepl(".tar.gz$", file)) {
     print("We found a tgz file, we will untar.")
     untar(file, exdir = td)
   } else {
