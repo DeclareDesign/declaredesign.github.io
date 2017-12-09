@@ -8,10 +8,11 @@ NeedsCompilation: no
 
 Package: estimatr
 Version: 1.0
-Imports: Rcpp (>= 0.12.10), dplyr, purrr, magrittr
+Imports: Rcpp (>= 0.12.10)
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat
-MD5sum: cf60bf6b76bfec5c49b8abfd16e7e360
+Suggests: testthat, sandwich, randomizr, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 97a607cf096ab304f908a9fe2eddd4ac
 NeedsCompilation: yes
 
 Package: fabricatr
