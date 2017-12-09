@@ -16,7 +16,7 @@ getPathForPackage <- function(file) {
   print("===")
   rversion <- unname(fields["Rmajor"])
   # Forcibly only submit R 3.3 or 3.4 packages.
-  if(!rversion %in% c("3.3", "3.4")) { 
+  if(pkgtype != "source" & !rversion %in% c("3.3", "3.4")) { 
     print("R version did not match our range: 3.3 to 3.4... so we do not submit.")
     return(NA) 
   }
@@ -69,11 +69,11 @@ getPackageInfo <- function(file) {
   if (grepl(".zip$", file)) {
     print("We found a zip file. We will unzip.")
     unzip(file, exdir = td)
-  } else if (grepl(".tgz$", file) || grepl(".tar.gz$", file)) {
+  } else if (grepl(".tgz$", file)) {
     print("We found a tgz file, we will untar.")
     untar(file, exdir = td)
   } else {
-    print("We found some other file... hmmm...")
+    print("We found some other file... hmmm... source distribution?")
     ##stop("Not sure we can handle ", file, call.=FALSE)
     fields <- c("Source" = TRUE,
                 "Rmajor" = NA,
