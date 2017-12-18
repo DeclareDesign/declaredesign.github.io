@@ -7,3 +7,11 @@ Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2
 License: MIT + file LICENSE
 MD5sum: 452072883d22eee54d9fc3bb18153ecf
 
+Package: fabricatr
+Version: 1.0.0
+Depends: R (>= 3.2.0)
+Imports: rlang
+Suggests: testthat, dplyr, knitr, rmarkdown, data.table
+License: MIT + file LICENSE
+MD5sum: 20829ca0021cd4fc9ef5af98a088bae8
+
