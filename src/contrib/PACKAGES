@@ -18,10 +18,10 @@ MD5sum: 153eacc0eb7c9b5f3fbfffc77cefd724
 NeedsCompilation: yes
 
 Package: fabricatr
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.2.0)
 Imports: rlang
-Suggests: testthat, dplyr, knitr, rmarkdown, data.table
+Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast
 License: MIT + file LICENSE
-MD5sum: 3b3c5e24fbcc699b1a4b411bfa44ae55
+MD5sum: 4e2c4be6ed7be15dddee700e036d6787
 NeedsCompilation: no
