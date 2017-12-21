@@ -22,3 +22,10 @@ Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast
 License: MIT + file LICENSE
 MD5sum: f584c2adba877a760e14e40c2ae11153
+
+Package: randomizr
+Version: 0.7.0
+Depends: R (>= 2.10.0)
+Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
+License: MIT + file LICENSE
+MD5sum: 69a0c7ea2d82e0ec4b47b293b15059e7
