@@ -26,3 +26,11 @@ Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
 License: MIT + file LICENSE
 MD5sum: 05f1e9ab5181f5f58deb8bd522448445
 NeedsCompilation: no
+
+Package: randomizr
+Version: 0.7.0
+Depends: R (>= 2.10.0)
+Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
+License: MIT + file LICENSE
+MD5sum: f4eabf88a9aababdf54c1e99b59237cd
+NeedsCompilation: yes
