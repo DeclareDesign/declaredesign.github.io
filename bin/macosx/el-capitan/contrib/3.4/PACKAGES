@@ -19,9 +19,10 @@ Package: fabricatr
 Version: 1.0.1
 Depends: R (>= 3.2.0)
 Imports: rlang
-Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast
+Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
+        diagram
 License: MIT + file LICENSE
-MD5sum: 5facf2e32119f45b154b8e307d79ec06
+MD5sum: 1d79e926c4d6d7258e28c16ad67372a0
 
 Package: randomizr
 Version: 0.7.0
