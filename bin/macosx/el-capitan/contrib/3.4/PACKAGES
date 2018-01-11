@@ -22,7 +22,7 @@ Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
         diagram
 License: MIT + file LICENSE
-MD5sum: 1d79e926c4d6d7258e28c16ad67372a0
+MD5sum: df798fe2bc91c49422e777dd7074ca7f
 
 Package: randomizr
 Version: 0.7.0
