@@ -23,8 +23,8 @@ Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
 License: MIT + file LICENSE
 
 Package: randomizr
-Version: 0.8.0
-Depends: R (>= 2.10.0)
+Version: 0.9.0
+Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
 Archs: i386
