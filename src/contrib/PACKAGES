@@ -19,12 +19,12 @@ NeedsCompilation: yes
 
 Package: fabricatr
 Version: 1.0.1
-Depends: R (>= 3.2.0)
+Depends: R (>= 3.3.0)
 Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
         diagram
 License: MIT + file LICENSE
-MD5sum: 4031a7e4e275833be632b3fb55466a15
+MD5sum: b961940532d90d9fb438ae7b99f34637
 NeedsCompilation: no
 
 Package: randomizr
