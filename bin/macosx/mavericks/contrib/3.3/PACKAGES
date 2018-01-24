@@ -8,26 +8,18 @@ License: MIT + file LICENSE
 MD5sum: ce9a680c016d4a0e41318577fb85a83c
 
 Package: estimatr
-Version: 1.0
+Version: 0.0.9
+Depends: R (>= 2.10)
 Imports: Rcpp (>= 0.12.10)
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: testthat, sandwich, randomizr, knitr, rmarkdown
+LinkingTo: Rcpp, RcppEigen
+Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr, knitr,
+        rmarkdown
 License: MIT + file LICENSE
-MD5sum: 2bc156bee86d46426e99fcd1d14b6f4a
+MD5sum: fff95a43fb32b810c7be3661a98ecfb3
 
 Package: fabricatr
-Version: 1.0.1
-Depends: R (>= 3.2.0)
+Version: 0.1.0
 Imports: rlang
-Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
-        diagram
+Suggests: testthat, dplyr
 License: MIT + file LICENSE
-MD5sum: dddd68ab352dd5bd415f95e2cc9fb284
-
-Package: randomizr
-Version: 0.7.0
-Depends: R (>= 2.10.0)
-Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
-License: MIT + file LICENSE
-MD5sum: 3d6e8fb917bf4f83efe921296cbf6a59
-
+MD5sum: ffc5dba1fa86fd340a17d49c8a7274c3

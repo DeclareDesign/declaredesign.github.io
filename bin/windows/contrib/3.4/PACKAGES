@@ -7,15 +7,18 @@ Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2
 License: MIT + file LICENSE
 
 Package: estimatr
-Version: 1.0
+Version: 0.2.0
+Depends: R (>= 3.3.0)
 Imports: Rcpp (>= 0.12.10)
-LinkingTo: Rcpp, RcppArmadillo, RcppEigen
-Suggests: testthat, sandwich, randomizr, knitr, rmarkdown
+LinkingTo: Rcpp, RcppEigen
+Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
+        knitr, rmarkdown
+Enhances: broom
 License: MIT + file LICENSE
 Archs: i386
 
 Package: fabricatr
-Version: 1.0.1
+Version: 0.2.0
 Depends: R (>= 3.3.0)
 Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
