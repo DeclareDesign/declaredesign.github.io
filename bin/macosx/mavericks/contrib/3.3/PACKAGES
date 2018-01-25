@@ -23,3 +23,11 @@ Imports: rlang
 Suggests: testthat, dplyr
 License: MIT + file LICENSE
 MD5sum: ffc5dba1fa86fd340a17d49c8a7274c3
+
+Package: randomizr
+Version: 0.9.0
+Depends: R (>= 3.3.0)
+Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
+License: MIT + file LICENSE
+MD5sum: edfb87be24222258fe5c6e96cc2d7f55
+
