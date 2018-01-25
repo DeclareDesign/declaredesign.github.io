@@ -11,13 +11,13 @@ NeedsCompilation: no
 Package: estimatr
 Version: 0.2.0
 Depends: R (>= 3.3.0)
-Imports: Rcpp (>= 0.12.10)
+Imports: Rcpp (>= 0.12.10), methods
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
-        knitr, rmarkdown
-Enhances: broom
+        knitr, rmarkdown, margins
+Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 7d84c13e82f0d883e3b95c16796ee3c1
+MD5sum: c82295b6c94b2e7f06f8fb7304463cff
 NeedsCompilation: yes
 
 Package: fabricatr
