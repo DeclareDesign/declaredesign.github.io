@@ -17,7 +17,7 @@ Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
         knitr, rmarkdown, margins
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 48b4eaebec29bbf5d1677e4d72aeb09f
+MD5sum: 1831d10561eb76a1a2008f8d77707b7b
 NeedsCompilation: yes
 
 Package: fabricatr
