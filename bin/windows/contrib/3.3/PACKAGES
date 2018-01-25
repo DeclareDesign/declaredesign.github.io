@@ -9,10 +9,10 @@ License: MIT + file LICENSE
 Package: estimatr
 Version: 0.2.0
 Depends: R (>= 3.3.0)
-Imports: Rcpp (>= 0.12.10)
+Imports: Rcpp (>= 0.12.10), methods
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
-        knitr, rmarkdown
+        knitr, rmarkdown, margins
 Enhances: broom, texreg
 License: MIT + file LICENSE
 Archs: i386
