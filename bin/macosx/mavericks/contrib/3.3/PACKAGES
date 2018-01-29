@@ -1,11 +1,11 @@
 Package: DeclareDesign
-Version: 1.1.0
+Version: 0.2.0
 Depends: R (>= 3.3.0)
 Imports: rlang, randomizr, fabricatr, estimatr, doParallel, foreach,
         doRNG, parallel
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2
 License: MIT + file LICENSE
-MD5sum: ce9a680c016d4a0e41318577fb85a83c
+MD5sum: c2173476f17b92ad7cd7237aec8574b6
 
 Package: estimatr
 Version: 0.0.9
@@ -32,4 +32,3 @@ Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
 MD5sum: cb80b41531fa513966d4c4109c4eb0a2
-

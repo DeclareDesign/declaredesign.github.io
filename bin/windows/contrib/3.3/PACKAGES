@@ -1,5 +1,5 @@
 Package: DeclareDesign
-Version: 1.1.0
+Version: 0.2.0
 Depends: R (>= 3.3.0)
 Imports: rlang, randomizr, fabricatr, estimatr, doParallel, foreach,
         doRNG, parallel
@@ -31,4 +31,3 @@ Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
 Archs: i386
-
