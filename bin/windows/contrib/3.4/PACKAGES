@@ -12,7 +12,7 @@ Depends: R (>= 3.3.0)
 Imports: Rcpp (>= 0.12.10), methods
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
-        knitr, rmarkdown, margins
+        knitr, rmarkdown, margins, prediction
 Enhances: broom, texreg
 License: MIT + file LICENSE
 Archs: i386
