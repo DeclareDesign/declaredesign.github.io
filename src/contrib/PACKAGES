@@ -14,10 +14,10 @@ Depends: R (>= 3.3.0)
 Imports: Rcpp (>= 0.12.10), methods
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
-        knitr, rmarkdown, margins, prediction
+        margins, prediction
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 79f29fb112ef797a7da6ea5ea6549db8
+MD5sum: c968530f27f998326800103870848ed2
 NeedsCompilation: yes
 
 Package: fabricatr
