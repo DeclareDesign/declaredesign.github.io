@@ -1,8 +1,8 @@
 Package: DeclareDesign
 Version: 0.3.0
 Depends: R (>= 3.3.0), randomizr (>= 0.9.0), fabricatr (>= 0.3.0),
-        estimatr (>= 0.2.0)
-Imports: rlang, doParallel, foreach, doRNG, parallel
+        estimatr (>= 0.2.0),
+Imports: rlang, future.apply,
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2
 License: MIT + file LICENSE
 
