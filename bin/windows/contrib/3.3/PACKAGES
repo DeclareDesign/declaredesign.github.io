@@ -15,7 +15,7 @@ Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
         margins, prediction
 Enhances: broom, texreg
 License: MIT + file LICENSE
-Archs: i386
+Archs: i386, x64
 
 Package: fabricatr
 Version: 0.3.0
