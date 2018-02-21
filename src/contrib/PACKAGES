@@ -21,13 +21,13 @@ MD5sum: 79626f8585bbf0d6bd884a11d8cf5052
 NeedsCompilation: yes
 
 Package: fabricatr
-Version: 0.3.0
+Version: 0.4.0
 Depends: R (>= 3.3.0)
 Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
         diagram
 License: MIT + file LICENSE
-MD5sum: ca908587c128acb19a7ae1194cc1d4cb
+MD5sum: 321a15f871f0ce363724909605c8055e
 NeedsCompilation: no
 
 Package: randomizr
