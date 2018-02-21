@@ -19,13 +19,13 @@ License: MIT + file LICENSE
 MD5sum: 281dc22fa9efc950c186bf119c90df83
 
 Package: fabricatr
-Version: 0.3.0
+Version: 0.4.0
 Depends: R (>= 3.3.0)
 Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
         diagram
 License: MIT + file LICENSE
-MD5sum: f7a9a71ea550ff9c33b9e554008fa360
+MD5sum: 7a899dc9be2b723de9caba914bc3a8d8
 
 Package: randomizr
 Version: 0.9.0
