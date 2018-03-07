@@ -35,5 +35,5 @@ Version: 0.12.0
 Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
-MD5sum: fb01542c0398baa0fa24438d4ac8dc6b
+MD5sum: e342d9a3e36b0791755dd587080bce54
 NeedsCompilation: yes
