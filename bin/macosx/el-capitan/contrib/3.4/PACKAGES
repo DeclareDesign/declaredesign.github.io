@@ -28,8 +28,8 @@ License: MIT + file LICENSE
 MD5sum: 7a899dc9be2b723de9caba914bc3a8d8
 
 Package: randomizr
-Version: 0.12.0
+Version: 0.15.0
 Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
-MD5sum: fc9946b29349afe5d1e94f0dbb568d95
+MD5sum: 3653e49e316c6569000b2fe658e7abe3
