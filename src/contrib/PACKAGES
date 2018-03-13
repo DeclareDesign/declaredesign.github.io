@@ -11,13 +11,13 @@ NeedsCompilation: no
 Package: estimatr
 Version: 0.5.0
 Depends: R (>= 3.3.0)
-Imports: Rcpp (>= 0.12.10), methods
+Imports: Rcpp (>= 0.12.10), methods, Formula, rlang
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
-        margins, prediction
+        margins, prediction, AER
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 135494b1824df5483018f5071c753542
+MD5sum: 9b0cbbb4484d84bacfcc58d7dc881846
 NeedsCompilation: yes
 
 Package: fabricatr
