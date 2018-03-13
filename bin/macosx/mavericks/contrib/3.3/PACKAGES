@@ -10,13 +10,13 @@ MD5sum: a083f061f37fc52124dcf37519c6ce31
 Package: estimatr
 Version: 0.5.0
 Depends: R (>= 3.3.0)
-Imports: Rcpp (>= 0.12.10), methods
+Imports: Rcpp (>= 0.12.10), methods, Formula, rlang
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr, randomizr (>= 0.8),
-        margins, prediction
+        margins, prediction, AER
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 5302977f1471b9ee0c78f0dfe3317e6d
+MD5sum: 5ad48c32b6fe5926c91a778b80118b79
 
 Package: fabricatr
 Version: 0.4.0
