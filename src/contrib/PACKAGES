@@ -28,7 +28,7 @@ Imports: rlang
 Suggests: testthat, dplyr, knitr, rmarkdown, data.table, mvnfast,
         diagram
 License: MIT + file LICENSE
-MD5sum: 12a2f989e1801dfc6040f8cb28b546a8
+MD5sum: 6c8f515fd633239d1c73e6d721c02672
 NeedsCompilation: no
 
 Package: randomizr
