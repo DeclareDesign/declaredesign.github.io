@@ -6,7 +6,7 @@ Imports: rlang
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
         future.apply
 License: MIT + file LICENSE
-MD5sum: c0931ecad014436ee7f01e06cd5337b6
+MD5sum: 28a0458997927bd31017c640264449c8
 NeedsCompilation: no
 
 Package: estimatr
