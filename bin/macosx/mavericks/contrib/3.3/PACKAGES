@@ -43,3 +43,11 @@ Suggests: RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten
 License: GPL (>= 2)
 MD5sum: d28af3ab2be363a2f681afa31620540e
 
+Package: rlang
+Version: 0.2.0
+Depends: R (>= 3.1.0)
+Suggests: crayon, knitr, methods, pillar, rmarkdown (>= 0.2.65),
+        testthat, covr
+License: GPL-3
+MD5sum: a8280fbd16e9d9055a57172b232a51fa
+
