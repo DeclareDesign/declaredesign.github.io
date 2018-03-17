@@ -18,7 +18,7 @@ Suggests: testthat, sandwich, RcppEigen, fabricatr (>= 0.3), randomizr
         (>= 0.9), margins, prediction, AER
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 6dd3e7bdb04563c26fa84194d0375e14
+MD5sum: a19df650126c1d8e8f7948d068cdedb1
 NeedsCompilation: yes
 
 Package: fabricatr
