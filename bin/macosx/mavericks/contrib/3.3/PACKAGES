@@ -28,11 +28,11 @@ License: MIT + file LICENSE
 MD5sum: ab3cf8e1b74c63283d854efdb2bbab3d
 
 Package: randomizr
-Version: 0.12.0
+Version: 0.15.0
 Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
-MD5sum: 140eb5eb5cb7c4027921efae03d21b57
+MD5sum: ebfb64e67789c6f4b5d625b329baf2ed
 
 Package: Rcpp
 Version: 0.12.16
