@@ -14,10 +14,10 @@ Depends: R (>= 3.3.0)
 Imports: Rcpp (>= 0.12.16), methods, Formula, rlang (>= 0.2.0)
 LinkingTo: Rcpp, RcppEigen
 Suggests: testthat, sandwich, RcppEigen, fabricatr (>= 0.3), randomizr
-        (>= 0.9), margins, prediction, AER
+        (>= 0.15), margins, prediction, AER
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: 6f4dcb05b706462d61c9d9f668b22a9b
+MD5sum: 08939eb40676751c51b7de6416fe22d9
 
 Package: fabricatr
 Version: 0.5.0
