@@ -9,6 +9,14 @@ License: MIT + file LICENSE
 MD5sum: d85b01a82f46291ab9079768a6aa2bc3
 NeedsCompilation: no
 
+Package: designs
+Version: 0.1.0
+Depends: DeclareDesign
+Suggests: knitr, testthat
+Enhances: systemfit, Matching
+MD5sum: 5c4e6dc2787579b8248247338456cc45
+NeedsCompilation: no
+
 Package: estimatr
 Version: 0.7.0
 Depends: R (>= 3.3.0)
