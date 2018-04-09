@@ -32,7 +32,7 @@ Version: 0.15.0
 Depends: R (>= 3.3.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
-MD5sum: fecbe0a87043e10f13b1e857f7b2558d
+MD5sum: 63699e2b454fd8aec275d30763b64829
 
 Package: Rcpp
 Version: 0.12.16
