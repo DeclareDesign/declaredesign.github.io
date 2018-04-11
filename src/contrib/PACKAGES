@@ -14,7 +14,7 @@ Version: 0.1.0
 Depends: DeclareDesign
 Suggests: knitr, testthat
 Enhances: systemfit, Matching
-MD5sum: 5c4e6dc2787579b8248247338456cc45
+MD5sum: 082fcbfbd18f0d4316421ceeb0d375d3
 NeedsCompilation: no
 
 Package: estimatr
