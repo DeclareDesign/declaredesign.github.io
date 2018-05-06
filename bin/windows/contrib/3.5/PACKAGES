@@ -24,3 +24,10 @@ Depends: R (>= 3.4.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast
 License: MIT + file LICENSE
+
+Package: randomizr
+Version: 0.15.0
+Depends: R (>= 3.4.0)
+Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
+License: MIT + file LICENSE
+Archs: i386, x64
