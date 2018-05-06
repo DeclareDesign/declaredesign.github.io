@@ -40,8 +40,8 @@ NeedsCompilation: no
 
 Package: randomizr
 Version: 0.15.0
-Depends: R (>= 3.3.0)
+Depends: R (>= 3.4.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
-MD5sum: 2889705a78b3e699d0843e83d4c96f4a
+MD5sum: 24eac0c01a004d510333906c1611b34f
 NeedsCompilation: yes
