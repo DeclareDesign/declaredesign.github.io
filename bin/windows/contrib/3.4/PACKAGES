@@ -20,7 +20,7 @@ Archs: i386, x64
 
 Package: fabricatr
 Version: 0.5.0
-Depends: R (>= 3.3.0)
+Depends: R (>= 3.4.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast
 License: MIT + file LICENSE
