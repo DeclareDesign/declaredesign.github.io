@@ -6,3 +6,14 @@ Imports: rlang
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
         future.apply
 License: MIT + file LICENSE
+
+Package: estimatr
+Version: 0.7.0
+Depends: R (>= 3.4.0)
+Imports: Rcpp (>= 0.12.16), methods, Formula, rlang (>= 0.2.0)
+LinkingTo: Rcpp, RcppEigen
+Suggests: testthat, sandwich, RcppEigen, fabricatr (>= 0.3), randomizr
+        (>= 0.15), margins, prediction, AER
+Enhances: broom, texreg
+License: MIT + file LICENSE
+Archs: i386, x64
