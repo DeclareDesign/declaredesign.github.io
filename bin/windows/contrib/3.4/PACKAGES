@@ -27,7 +27,7 @@ License: MIT + file LICENSE
 
 Package: randomizr
 Version: 0.15.0
-Depends: R (>= 3.3.0)
+Depends: R (>= 3.4.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
 Archs: i386, x64
