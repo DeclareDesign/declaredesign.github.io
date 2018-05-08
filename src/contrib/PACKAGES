@@ -31,11 +31,11 @@ NeedsCompilation: yes
 
 Package: fabricatr
 Version: 0.5.0
-Depends: R (>= 3.3.0)
+Depends: R (>= 3.4.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast
 License: MIT + file LICENSE
-MD5sum: 9cb7a9324ba096912c34eb7e36ba1cea
+MD5sum: 890ac8876bd3c04d090a3ef2cbb63f29
 NeedsCompilation: no
 
 Package: randomizr
