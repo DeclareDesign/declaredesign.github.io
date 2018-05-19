@@ -9,6 +9,16 @@ License: MIT + file LICENSE
 MD5sum: f7247dd17c1d3a83e2bec40dd6e5d4b1
 NeedsCompilation: no
 
+Package: DesignLibrary
+Version: 0.1.0
+Depends: DeclareDesign
+Imports: devtools
+Suggests: knitr, testthat
+Enhances: Matching
+License: MIT + file LICENSE
+MD5sum: e7521779907407bbf8e5bfe4a4abf2bd
+NeedsCompilation: no
+
 Package: designs
 Version: 0.1.0
 Depends: DeclareDesign
