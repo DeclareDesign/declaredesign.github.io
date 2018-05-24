@@ -14,4 +14,4 @@ Depends: R (>= 3.4.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast
 License: MIT + file LICENSE
-MD5sum: ad55ba099f0ecb396c8fe9f01b3cfab0
+MD5sum: 5de703c96a897403e7991070acfb654f
