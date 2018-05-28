@@ -49,9 +49,9 @@ MD5sum: c3645b743f5481bb6a10c9f64393e7c0
 NeedsCompilation: no
 
 Package: randomizr
-Version: 0.15.0
+Version: 0.16.0
 Depends: R (>= 3.4.0)
 Suggests: knitr, dplyr, blockTools, testthat, rmarkdown, ri
 License: MIT + file LICENSE
-MD5sum: ef8c37bdb9a8e4893327092026c53a26
+MD5sum: 84a97a51d8a24c229087b0910335d3db
 NeedsCompilation: yes
