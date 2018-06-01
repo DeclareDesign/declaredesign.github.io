@@ -9,15 +9,16 @@ License: MIT + file LICENSE
 MD5sum: cb7a0e0e71f124ad59d024c9dcd7cf86
 
 Package: estimatr
-Version: 0.7.0
+Version: 0.8.0
 Depends: R (>= 3.4.0)
 Imports: Rcpp (>= 0.12.16), methods, Formula, rlang (>= 0.2.0)
 LinkingTo: Rcpp, RcppEigen
-Suggests: testthat, sandwich, RcppEigen, fabricatr (>= 0.3), randomizr
-        (>= 0.15), margins, prediction, AER
+Suggests: RcppEigen, fabricatr (>= 0.3), randomizr (>= 0.15), testthat,
+        sandwich, clubSandwich, margins, prediction, lfe, AER, ivpack,
+        stargazer
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: ae8b625830219435df74b64e570a6b11
+MD5sum: 425c7231e44de4ba724a590b5d130aea
 
 Package: fabricatr
 Version: 0.5.0
