@@ -1,12 +1,12 @@
 Package: DeclareDesign
-Version: 0.6.0
-Depends: R (>= 3.4.0), randomizr (>= 0.12.0), fabricatr (>= 0.4.0),
-        estimatr (>= 0.6.0)
+Version: 0.8.0
+Depends: R (>= 3.4.0), randomizr (>= 0.16.0), fabricatr (>= 0.4.0),
+        estimatr (>= 0.8.0)
 Imports: rlang, methods
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
         future.apply
 License: MIT + file LICENSE
-MD5sum: daba5277c28305f413f14a8eb60c28e7
+MD5sum: 710489c4aeebd8fc72ca65857f020216
 NeedsCompilation: no
 
 Package: DesignLibrary
