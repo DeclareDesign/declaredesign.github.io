@@ -13,10 +13,10 @@ Package: DesignLibrary
 Version: 0.1.0
 Depends: DeclareDesign
 Imports: devtools
-Suggests: knitr, testthat
+Suggests: knitr, testthat, systemfit
 Enhances: Matching
 License: MIT + file LICENSE
-MD5sum: a7c5420b3816e990f4f06c3fc9b33047
+MD5sum: 3e72cc4010da7f9f3b5ab29e0fa6049e
 NeedsCompilation: no
 
 Package: designs
