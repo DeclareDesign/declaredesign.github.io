@@ -16,7 +16,7 @@ Imports: devtools
 Suggests: knitr, testthat, systemfit
 Enhances: Matching
 License: MIT + file LICENSE
-MD5sum: aa44b319a625d0bbc010af80956a019c
+MD5sum: 410e916e98c4331adeb861310df4ddb6
 NeedsCompilation: no
 
 Package: designs
