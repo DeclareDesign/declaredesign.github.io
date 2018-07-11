@@ -6,7 +6,7 @@ Imports: rlang, methods
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
         future.apply, broom
 License: MIT + file LICENSE
-MD5sum: 804d5c7085920b0631cd0f5dd9416eb2
+MD5sum: 1b0063d5ac6fc0ebabc50715f003e3a3
 NeedsCompilation: no
 
 Package: DesignLibrary
