@@ -9,7 +9,7 @@ License: MIT + file LICENSE
 MD5sum: d151547ff224de611cd59d4a05a114d3
 
 Package: estimatr
-Version: 0.10.0
+Version: 0.11.0
 Depends: R (>= 3.4.0)
 Imports: Rcpp (>= 0.12.16), methods, Formula, rlang (>= 0.2.0)
 LinkingTo: Rcpp, RcppEigen
@@ -18,7 +18,7 @@ Suggests: RcppEigen, fabricatr (>= 0.4), randomizr (>= 0.16), testthat,
         stargazer, car
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: ed151b2212d175828c8530cd59f4b3b1
+MD5sum: 8343a50b4e3ce806a6b7e5ed7c3b62d0
 
 Package: fabricatr
 Version: 0.5.0
