@@ -17,7 +17,7 @@ Imports: devtools, rlang, methods
 Suggests: knitr, testthat, systemfit, ggplot2, broom, rmarkdown
 Enhances: Matching
 License: MIT + file LICENSE
-MD5sum: fedebd9fd35f5a40bade690b65162739
+MD5sum: 8cc72667d00aace53402ed8dcccd88e0
 NeedsCompilation: no
 
 Package: designs
