@@ -5,9 +5,9 @@ Depends: R (>= 3.4.0), randomizr (>= 0.16.1), fabricatr (>= 0.4.0),
 Imports: rlang, methods
 Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
         future.apply, broom, MASS, Matching, betareg, biglm, gam, lfe,
-        sf, reshape2
+        sf, reshape2, DesignLibrary
 License: MIT + file LICENSE
-MD5sum: da8683cf6ecc7b088c042933a681f088
+MD5sum: 0f3d412a93bc43486093acae4df4829e
 
 Package: estimatr
 Version: 0.11.0
