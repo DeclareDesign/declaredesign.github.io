@@ -14,10 +14,9 @@ Version: 0.1.0.9000
 Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
         0.16.1), fabricatr (>= 0.4.0), estimatr (>= 0.10.0)
 Imports: devtools, rlang, methods
-Suggests: knitr, testthat, systemfit, ggplot2, broom, rmarkdown
-Enhances: Matching
+Suggests: knitr, testthat, ggplot2, broom, rmarkdown
 License: MIT + file LICENSE
-MD5sum: dad5bcb421a8da70f17f110f1ff882a0
+MD5sum: 06d91ca0ef0f8922d104c719599d9664
 NeedsCompilation: no
 
 Package: designs
