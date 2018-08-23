@@ -16,7 +16,7 @@ Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
 Imports: devtools, rlang, methods
 Suggests: knitr, testthat, ggplot2, broom, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 574ddfa30ae853372475796ca88a7d96
+MD5sum: 8949cf72caa7fd98fe2b078d2372fd7f
 NeedsCompilation: no
 
 Package: designs
