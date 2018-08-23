@@ -19,7 +19,7 @@ Suggests: RcppEigen, fabricatr (>= 0.4), randomizr (>= 0.16), testthat,
         stargazer, car
 Enhances: broom, texreg
 License: MIT + file LICENSE
-MD5sum: d1c591675c88b7d08865f526cfa8ec48
+MD5sum: 9c80c4d4528c0f1d101aab5f4bb1e93d
 
 Package: fabricatr
 Version: 0.6.0
