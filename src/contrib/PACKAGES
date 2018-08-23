@@ -13,10 +13,10 @@ Package: DesignLibrary
 Version: 0.1.0.9000
 Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
         0.16.1), fabricatr (>= 0.4.0), estimatr (>= 0.10.0)
-Imports: devtools, rlang, methods
-Suggests: knitr, testthat, ggplot2, broom, rmarkdown
+Imports: rlang
+Suggests: methods, devtools, knitr, testthat, ggplot2, broom, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 8949cf72caa7fd98fe2b078d2372fd7f
+MD5sum: 60971d48d17701e99034033f87940fee
 NeedsCompilation: no
 
 Package: designs
