@@ -9,6 +9,15 @@ Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
 License: MIT + file LICENSE
 MD5sum: 7b020dfc5051c99340419e9e2033d6f1
 
+Package: DesignLibrary
+Version: 0.1.1
+Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
+        0.16.1), fabricatr (>= 0.4.0), estimatr (>= 0.10.0)
+Imports: rlang
+Suggests: testthat, broom
+License: MIT + file LICENSE
+MD5sum: eba9713d6e666edbe1aa97e27bd409d4
+
 Package: estimatr
 Version: 0.11.0
 Depends: R (>= 3.4.0)
