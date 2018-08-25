@@ -10,13 +10,13 @@ License: MIT + file LICENSE
 MD5sum: 7b020dfc5051c99340419e9e2033d6f1
 
 Package: DesignLibrary
-Version: 0.1.1
+Version: 0.1.1.9000
 Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
         0.16.1), fabricatr (>= 0.4.0), estimatr (>= 0.10.0)
 Imports: rlang
 Suggests: testthat, broom
 License: MIT + file LICENSE
-MD5sum: 62ce64a9b5fbb3dedea7b202cc20382b
+MD5sum: 61c12908e2198e0f500c6dbe21ab2d98
 
 Package: estimatr
 Version: 0.11.0
