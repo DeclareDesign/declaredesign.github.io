@@ -16,7 +16,7 @@ Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
 Imports: rlang
 Suggests: testthat, broom
 License: MIT + file LICENSE
-MD5sum: 224489a9912bea446a1ed659e0066c4d
+MD5sum: ff4ab44c48143c4f4116f63f609509b5
 NeedsCompilation: no
 
 Package: designs
