@@ -16,7 +16,7 @@ Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
 Imports: rlang
 Suggests: testthat, broom
 License: MIT + file LICENSE
-MD5sum: d9718292c8bcadad1c5ca82d0c4d9c35
+MD5sum: c741af600265607b1ddc24e866fd61f8
 
 Package: estimatr
 Version: 0.7.0
