@@ -10,13 +10,13 @@ MD5sum: 263401c0c52d243e1ecdf231e9d9bb4f
 NeedsCompilation: no
 
 Package: DesignLibrary
-Version: 0.1.1.9000
+Version: 0.1.2
 Depends: DeclareDesign (>= 0.10.0), R (>= 3.4.0), randomizr (>=
         0.16.1), fabricatr (>= 0.4.0), estimatr (>= 0.10.0)
 Imports: rlang
 Suggests: testthat, broom
 License: MIT + file LICENSE
-MD5sum: f0415809084dbcd3c2ed75020b3ebd85
+MD5sum: 89244320b6de03dcd5350de4a307b9a4
 NeedsCompilation: no
 
 Package: designs
