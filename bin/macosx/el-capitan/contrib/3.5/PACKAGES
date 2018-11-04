@@ -29,7 +29,7 @@ Suggests: fabricatr (>= 0.4), randomizr (>= 0.16), AER, car,
         sandwich, stargazer, testthat
 Enhances: texreg
 License: MIT + file LICENSE
-MD5sum: 63235496fd02963fb97b11e9b97ae284
+MD5sum: e0fdfe18f6e5934b9f1e0c8b60f686f2
 
 Package: fabricatr
 Version: 0.7.0
