@@ -17,7 +17,7 @@ Depends: DeclareDesign (>= 0.12.0), R (>= 3.4.0), randomizr (>=
 Imports: generics, rlang
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 249bcef18dd7b9b0d7a08af32ba00ce0
+MD5sum: 5f70736dca9017d035ec2eb1780d0d54
 NeedsCompilation: no
 
 Package: designs
