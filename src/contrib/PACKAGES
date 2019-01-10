@@ -46,7 +46,7 @@ Depends: R (>= 3.4.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast, MASS
 License: MIT + file LICENSE
-MD5sum: be0d58f22f290de85cd23bca59d54b91
+MD5sum: e931b4fb4cc9f3aa53eecbe4d103ccf0
 NeedsCompilation: no
 
 Package: randomizr
