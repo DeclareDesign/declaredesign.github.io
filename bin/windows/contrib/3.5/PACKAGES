@@ -9,7 +9,7 @@ Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
 License: MIT + file LICENSE
 
 Package: estimatr
-Version: 0.15
+Version: 0.16
 Depends: R (>= 3.4.0)
 Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
         0.2.0)
