@@ -41,12 +41,12 @@ MD5sum: fa5ac2ea22f1a1abeb5de97d980b9825
 NeedsCompilation: yes
 
 Package: fabricatr
-Version: 0.7.0
+Version: 0.9.0
 Depends: R (>= 3.4.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast, MASS
 License: MIT + file LICENSE
-MD5sum: dcbaa818b3ce9e2dcafec8739054a4de
+MD5sum: ce9b2f0710677d32643a5d30329e3306
 NeedsCompilation: no
 
 Package: randomizr
