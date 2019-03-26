@@ -7,7 +7,7 @@ Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
         future.apply, broom, MASS, Matching, betareg, biglm, gam, lfe,
         sf, reshape2, DesignLibrary
 License: MIT + file LICENSE
-MD5sum: 0e132f555f14f72952bbd6a7b34806b4
+MD5sum: f3129f96995da799082597593a9ff039
 NeedsCompilation: no
 
 Package: DesignLibrary
