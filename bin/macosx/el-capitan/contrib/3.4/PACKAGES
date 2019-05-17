@@ -16,7 +16,7 @@ Depends: DeclareDesign (>= 0.17.0), R (>= 3.4.0), randomizr (>=
 Imports: generics, rlang, glue
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 7a57c267e5610c614eff1584378caf18
+MD5sum: 1837f0a436c3980bd555c120178b42a5
 
 Package: estimatr
 Version: 0.16.1
