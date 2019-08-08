@@ -9,14 +9,14 @@ Suggests: testthat, knitr, rmarkdown, AER, dplyr, data.table, ggplot2,
 License: MIT + file LICENSE
 
 Package: estimatr
-Version: 0.18.0
+Version: 0.19.0
 Depends: R (>= 3.4.0)
 Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
         0.2.0)
 LinkingTo: Rcpp, RcppEigen
 Suggests: fabricatr (>= 0.4), randomizr (>= 0.16), AER, clubSandwich,
-        ivpack, lfe, margins, prediction, RcppEigen, sandwich,
-        stargazer, testthat, car
+        emmeans (>= 1.4), estimability, ivpack, lfe, margins,
+        prediction, RcppEigen, sandwich, stargazer, testthat, car
 Enhances: texreg
 License: MIT + file LICENSE
 Archs: i386, x64
