@@ -4,7 +4,7 @@ Depends: R (>= 3.5.0), randomizr (>= 0.16.1), fabricatr (>= 0.6.0),
         estimatr (>= 0.14.0)
 Imports: rlang, generics
 Suggests: testthat, knitr, rmarkdown, AER, diffobj, dplyr, data.table,
-        ggplot2, future.apply, broom, MASS, Matching, betareg, biglm,
-        gam, lfe, sf, reshape2, DesignLibrary
+        tibble, ggplot2, future.apply, broom, MASS, Matching, betareg,
+        biglm, gam, lfe, sf, reshape2, DesignLibrary
 License: MIT + file LICENSE
-MD5sum: ab23de0d935f91cafa119f4b9ec329d5
+MD5sum: ac9c60b88a3c2f00710b3ab905cf7747
