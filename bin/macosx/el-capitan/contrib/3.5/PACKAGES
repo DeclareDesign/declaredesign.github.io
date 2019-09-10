@@ -19,17 +19,18 @@ License: MIT + file LICENSE
 MD5sum: 21cab2858abc20f2a7fe1bc7877cdff0
 
 Package: estimatr
-Version: 0.19.0
-Depends: R (>= 3.4.0)
+Version: 0.20.0
+Depends: R (>= 3.5.0)
 Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
         0.2.0)
 LinkingTo: Rcpp, RcppEigen
-Suggests: fabricatr (>= 0.4), randomizr (>= 0.16), AER, clubSandwich,
-        emmeans (>= 1.4), estimability, ivpack, lfe, margins,
-        prediction, RcppEigen, sandwich, stargazer, testthat, car
+Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
+        clubSandwich, emmeans (>= 1.4), estimability, ivpack, lfe,
+        margins, prediction, RcppEigen, sandwich, stargazer, testthat,
+        car
 Enhances: texreg
 License: MIT + file LICENSE
-MD5sum: 9d9a6e57a2df8ff2f17599b2439dce27
+MD5sum: 6fe1f78f94ec4edb4c25f6d78a420655
 
 Package: fabricatr
 Version: 0.9.0
