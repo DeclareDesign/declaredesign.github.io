@@ -1,5 +1,5 @@
 Package: DeclareDesign
-Version: 0.20.0
+Version: 0.21.0
 Depends: R (>= 3.5.0), randomizr (>= 0.20.0), fabricatr (>= 0.10.0),
         estimatr (>= 0.20.0)
 Imports: rlang, generics
