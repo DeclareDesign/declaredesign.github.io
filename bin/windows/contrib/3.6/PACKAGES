@@ -22,7 +22,7 @@ License: MIT + file LICENSE
 Archs: i386, x64
 
 Package: fabricatr
-Version: 0.10.0
+Version: 0.11.0
 Depends: R (>= 3.5.0)
 Imports: rlang (>= 0.2.0)
 Suggests: testthat, data.table, mvnfast, MASS
