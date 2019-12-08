@@ -30,7 +30,7 @@ Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
         car
 Enhances: texreg
 License: MIT + file LICENSE
-MD5sum: 32e1223b0ec072fdc9a19dd1934c1d4e
+MD5sum: f4c1bf441873531aaaf32f99d3c23d57
 
 Package: fabricatr
 Version: 0.9.0
