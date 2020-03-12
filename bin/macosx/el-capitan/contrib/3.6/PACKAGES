@@ -7,7 +7,7 @@ Suggests: testthat, knitr, rmarkdown, AER, diffobj, dplyr, data.table,
         tibble, ggplot2, future.apply, broom, MASS, Matching, betareg,
         biglm, gam, lfe, sf, reshape2, DesignLibrary
 License: MIT + file LICENSE
-MD5sum: 6f229b7075af978e21c88653dfd0767b
+MD5sum: d4476fa8d1e1c0c51c511fae2d559b77
 
 Package: estimatr
 Version: 0.20.0
