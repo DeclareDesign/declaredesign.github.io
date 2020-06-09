@@ -7,3 +7,17 @@ Suggests: testthat, knitr, rmarkdown, AER, diffobj, dplyr, data.table,
         tibble, ggplot2, future.apply, broom, MASS, Matching, betareg,
         biglm, gam, lfe, sf, reshape2, DesignLibrary, coin
 License: MIT + file LICENSE
+
+Package: estimatr
+Version: 0.22.0
+Depends: R (>= 3.5.0)
+Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
+        0.2.0)
+LinkingTo: Rcpp, RcppEigen
+Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
+        clubSandwich, emmeans (>= 1.4), estimability, ivpack, lfe,
+        margins, prediction, RcppEigen, sandwich, stargazer, testthat,
+        car
+Enhances: texreg
+License: MIT + file LICENSE
+Archs: i386, x64
