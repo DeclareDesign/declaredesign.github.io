@@ -10,4 +10,4 @@ Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
         car
 Enhances: texreg
 License: MIT + file LICENSE
-MD5sum: c8204e1c9d9494096a6e9422e3063657
+MD5sum: c5a21e39cc9a70fac0296a55d9e2c3b3
