@@ -6,8 +6,8 @@ Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
 LinkingTo: Rcpp, RcppEigen
 Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
         clubSandwich, emmeans (>= 1.4), estimability, ivpack, lfe,
-        margins, prediction, RcppEigen, sandwich, stargazer, testthat,
-        car
+        margins, modelsummary, prediction, RcppEigen, sandwich,
+        stargazer, testthat, car
 Enhances: texreg
 License: MIT + file LICENSE
-MD5sum: c5a21e39cc9a70fac0296a55d9e2c3b3
+MD5sum: e5a873909cbbb99fbed6e02ed1dc9054
