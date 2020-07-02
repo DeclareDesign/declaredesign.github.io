@@ -1,4 +1,26 @@
 Package: DeclareDesign
+Version: 0.19.0
+Depends: R (>= 3.5.0), randomizr (>= 0.16.1), fabricatr (>= 0.6.0),
+        estimatr (>= 0.14.0)
+Imports: rlang, generics
+Suggests: testthat, knitr, rmarkdown, AER, diffobj, dplyr, data.table,
+        tibble, ggplot2, future.apply, broom, MASS, Matching, betareg,
+        biglm, gam, lfe, sf, reshape2, DesignLibrary
+License: MIT + file LICENSE
+MD5sum: 4142055556607bceb7bd1298a4083715
+
+Package: DeclareDesign
+Version: 0.21.0
+Depends: R (>= 3.5.0), randomizr (>= 0.20.0), fabricatr (>= 0.10.0),
+        estimatr (>= 0.20.0)
+Imports: rlang, generics
+Suggests: testthat, knitr, rmarkdown, AER, diffobj, dplyr, data.table,
+        tibble, ggplot2, future.apply, broom, MASS, Matching, betareg,
+        biglm, gam, lfe, sf, reshape2, DesignLibrary
+License: MIT + file LICENSE
+MD5sum: c027f5bfa6739c63897db6d6dd2f92ca
+
+Package: DeclareDesign
 Version: 0.22.0
 Depends: R (>= 3.5.0), randomizr (>= 0.20.0), fabricatr (>= 0.10.0),
         estimatr (>= 0.20.0)
@@ -8,6 +30,33 @@ Suggests: testthat, knitr, rmarkdown, AER, diffobj, dplyr, data.table,
         biglm, gam, lfe, sf, reshape2, DesignLibrary
 License: MIT + file LICENSE
 MD5sum: 70a8c86b7d083362425c8948716d7a2c
+
+Package: estimatr
+Version: 0.19.0
+Depends: R (>= 3.4.0)
+Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
+        0.2.0)
+LinkingTo: Rcpp, RcppEigen
+Suggests: fabricatr (>= 0.4), randomizr (>= 0.16), AER, clubSandwich,
+        emmeans (>= 1.4), estimability, ivpack, lfe, margins,
+        prediction, RcppEigen, sandwich, stargazer, testthat, car
+Enhances: texreg
+License: MIT + file LICENSE
+MD5sum: 23101dbb57fa6f0d76185bf675212ec9
+
+Package: estimatr
+Version: 0.20.0
+Depends: R (>= 3.5.0)
+Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
+        0.2.0)
+LinkingTo: Rcpp, RcppEigen
+Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
+        clubSandwich, emmeans (>= 1.4), estimability, ivpack, lfe,
+        margins, prediction, RcppEigen, sandwich, stargazer, testthat,
+        car
+Enhances: texreg
+License: MIT + file LICENSE
+MD5sum: 590df06a5dc3033bb95f6cb058da51b7
 
 Package: estimatr
 Version: 0.22.0
@@ -21,4 +70,4 @@ Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
         stargazer, testthat, car
 Enhances: texreg
 License: MIT + file LICENSE
-MD5sum: 74cd7c826fd6e870600f1c311570eff9
+MD5sum: 4e0eb6798fcda7667f38c1e3bcdceb68
