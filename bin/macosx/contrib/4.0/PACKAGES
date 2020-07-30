@@ -11,3 +11,17 @@ Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
 Enhances: texreg
 License: MIT + file LICENSE
 MD5sum: d97892cbdf2e5dbc4a5e353400751dab
+
+Package: estimatr
+Version: 0.24.0
+Depends: R (>= 3.6.0)
+Imports: Formula, generics, methods, Rcpp (>= 0.12.16), rlang (>=
+        0.2.0)
+LinkingTo: Rcpp, RcppEigen
+Suggests: fabricatr (>= 0.10.0), randomizr (>= 0.20.0), AER,
+        clubSandwich, emmeans (>= 1.4), estimability, ivpack, lfe,
+        margins, modelsummary, prediction, RcppEigen, sandwich,
+        stargazer, testthat, car
+Enhances: texreg
+License: MIT + file LICENSE
+MD5sum: dc3e7ddbaab14b94b74f2427fcfeb8d8
